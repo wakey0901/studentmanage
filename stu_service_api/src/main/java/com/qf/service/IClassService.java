@@ -6,4 +6,5 @@ import java.util.List;
 
 public interface IClassService {
     List<Class1> queryAll();
+/*    int addClassSum(int id);*/
 }

@@ -11,5 +11,5 @@ import java.io.Serializable;
 @NoArgsConstructor
 public class Class1 implements Serializable {
     private int id;
-    private String className;
+    private String cname;
 }

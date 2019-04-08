@@ -13,5 +13,5 @@ public class Student implements Serializable {
     private int id;
     private String name;
     private int age;
-    private int classId;
+    private int cid;
 }

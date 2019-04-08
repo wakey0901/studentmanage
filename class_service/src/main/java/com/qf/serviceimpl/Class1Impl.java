@@ -18,4 +18,13 @@ public class Class1Impl implements IClassService {
     public List<Class1> queryAll() {
         return class1Mapper.selectList(null);
     }
+
+/*    //添加班级总人数
+    @Override
+    public int addClassSum(int id) {
+        Class1 class1 = class1Mapper.selectById(id);
+        class1.set
+
+        return 0;
+    }*/
 }
