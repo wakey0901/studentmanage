@@ -30,7 +30,7 @@ public class StuServiceImpl implements IStuService {
 
     @Override
     public List<Student> queryAll() {
-        System.out.println("学生服务1被调用");
+        System.out.println("学生服务2被调用");
         return stuMapper.selectList(null);
     }
 }
